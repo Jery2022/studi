@@ -1,8 +1,14 @@
-*{
-  min-height: 50px;
-}
-
-div.row div {
+main.div,
+section,
+aside {
   background-color: aquamarine;
   border: 1px solid black;
-}a
+}
+.row {
+  border: 1px solid red;
+}
+
+article,
+div {
+  border: 1px solid blue;
+}
